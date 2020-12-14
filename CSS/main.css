@@ -1,29 +1,16 @@
-/* NAVBAR */
-
-.navbar img,
-.main-foot img {
-    height: 25px;
-    width: 25px;
-}
-
-.main-foot img {
-    display: inline-block;
-}
-
-/* WELCOME PAGE  */
+/* MAIN PAGE  */
+/* 
+* {
+    outline: 1px solid red;
+} */
 
 .main-head {
-    text-align: center;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
-.main-head img {
+.profile-pic {
     width: 150px;
     box-shadow: 2px 4px 4px;
-}
-
-.main-head h1 {
-    padding-top: 30px;
 }
 
 ul {
@@ -33,34 +20,17 @@ ul {
 
 /* GALLERY */
 
-/* selects portrait and landscape images and frames them */
-.landscape {
-    width: 350px; 
-    height: 275px;
-    object-fit: cover;
-}
-
-.portrait {
-    width: 350px; 
-    height: 275px;
-    object-fit: cover;
-}
-
-/* centers gallery  */
 .gallery {
-    position : relative;
-}
-
-.gallery, 
-.main-head {
-    margin-top: 60px;
-    text-align: center;
-    width: auto;
+    margin-top: 45px;
 }
 
 .gallery img {
     margin-bottom: 5px; 
+    margin-left: 5px;
     border-radius: 5px;
+    width: 350px; 
+    height: 275px;
+    object-fit: cover;
 }
 
 .gallery h2 {
