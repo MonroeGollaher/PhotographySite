@@ -4,12 +4,15 @@
     outline: 1px solid red;
 } */
 
-.main-head {
+/* * {
+    outline: 1px solid red; 
+} */
+/* .main-head {
     padding-top: 60px;
-}
+} */
 
 .profile-pic {
-    width: 150px;
+    width: 175px;
     box-shadow: 2px 4px 4px;
 }
 
@@ -19,25 +22,19 @@ ul {
 }
 
 /* GALLERY */
-
+/* 
 .gallery {
     margin-top: 45px;
-}
+} */
 
 .gallery img {
     margin-bottom: 5px; 
     margin-left: 5px;
     border-radius: 5px;
-    width: 350px; 
-    height: 275px;
+    width: 302px; 
+    height: 250px;
     object-fit: cover;
 }
-
-.gallery h2 {
-    padding-bottom: 20px;
-}
-
-/* IMG hover animations  */
 
 .gallery img:hover {
     opacity: 0.5;
