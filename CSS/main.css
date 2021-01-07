@@ -1,19 +1,19 @@
 /* MAIN PAGE  */
-/* 
-* {
-    outline: 1px solid red;
-} */
 
 /* * {
     outline: 1px solid red; 
 } */
-/* .main-head {
-    padding-top: 60px;
-} */
+
+header p {
+    font-family: sans-serif;
+}
 
 .profile-pic {
     width: 175px;
     box-shadow: 2px 4px 4px;
+}
+.main-head p{
+    font-size: large;
 }
 
 ul {
@@ -21,19 +21,43 @@ ul {
     text-align: center;
 }
 
-/* GALLERY */
-/* 
-.gallery {
-    margin-top: 45px;
+.card img {
+    width: 100%;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border-radius: 12px;
+    padding: 3%;
+    margin-bottom: 6%;
+    background: #fff;
+    box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: inset 10px 10px 24px -12px (0,0,0,0.75);
+}
+/* .card:hover img{
+    transform:scale(0.9);
 } */
 
-.gallery img {
+/* GALLERY */
+
+/* .gallery img {
     margin-bottom: 5px; 
     margin-left: 5px;
     border-radius: 5px;
     width: 302px; 
     height: 250px;
-    object-fit: cover;
+    background-size: cover;
+    object-fit: cover; */
+    /* background-position: center;
 }
 
 .gallery img:hover {
@@ -42,7 +66,7 @@ ul {
 }
 
 /* fade at the bottom of page */
-.gallery:after {
+/* .gallery:after {
   content  : "";
   position : absolute;
   z-index  : 1;
@@ -54,15 +78,10 @@ ul {
                     rgba(255,255,255, 1) 90%);
   width    : 100%;
   height   : 10em;
-}
+} */
 /* /fade */
 
-.other-content {
-    text-align: center;
-    width: auto;
-}
-
-.other-content a,
+.photo-link a,
 .contact-link a {
     color: #2f2f2f;
 }
@@ -74,7 +93,6 @@ ul {
     padding-top: 20px; 
     padding-bottom: 30px;
 }
-
 
 .contact-link:hover {
     text-decoration: underline;
