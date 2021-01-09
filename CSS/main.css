@@ -82,6 +82,7 @@ ul {
 /* /fade */
 
 .photo-link a,
+.projects-link a,
 .contact-link a {
     color: #2f2f2f;
 }
@@ -131,17 +132,21 @@ ul {
 
 /* CONTACT PAGE FORM  */
 
-.form {
+/* .form {
     position: absolute;
     top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+} */
+.contactForm{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 input {
     width: 100%;
-    margin: 20px 0; 
+    /* margin: 20px 0;  */
     background: rgba(0,0,0,0);
     border: none; 
     border-bottom: 1px solid #2f2f2f;
@@ -164,7 +169,6 @@ button {
     text-decoration: none;
     color: #fff;
     background-color: #55acee;
-    /* box-shadow: 0px 5px 0px 0px #3C93D5; */
     font-family: 'Open Sans', 'sans-serif';
 }
 
