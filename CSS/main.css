@@ -12,10 +12,6 @@ header p {
     width: 175px;
     box-shadow: 2px 4px 4px;
 }
-.main-head p{
-    font-size: large;
-}
-
 ul {
     list-style-type: none;
     text-align: center;
@@ -41,7 +37,10 @@ ul {
     transition: 0.3s;
 }
 .card:hover{
-    box-shadow: inset 10px 10px 24px -12px (0,0,0,0.75);
+    background: rgba(0, 0, 0, 0.637);
+    color: rgba(255, 255, 255, 0.774);
+    border-radius: 15px;
+    transition: all .4s ease-in-out;
 }
 /* .card:hover img{
     transform:scale(0.9);
